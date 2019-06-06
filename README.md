@@ -24,7 +24,10 @@ Créer un dossier dans la racine qui porte de nom de `le_shell_cest_trop_cool!`
 
 ![Résultat attendu Exercice 2](./assets/img/ex2.png)
 
+Implémentation :
+
 ```bash
+# créer un dossier à la racine
 $ mkdir le_shell_cest_trop_cool!
 ```
 
@@ -36,10 +39,10 @@ Implémentation :
 
 ```bash
 # Déplacer test1 et test5
-$ mv test{1,5} le_shell_cest_trop_cool\!
+$ mv test{1,5} le_shell_cest_trop_cool!
 
 # Copier test2 et test6
-cp -r test{2,6} le_shell_cest_trop_cool\!
+cp -r test{2,6} le_shell_cest_trop_cool!
 ```
 
 ## Ressources
