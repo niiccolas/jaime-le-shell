@@ -8,7 +8,7 @@ Dans un dossier `jaime-le-shell`, créer la suite de dossier et de fichier de so
 
 ![Résultat attendu Exercice 1](./assets/img/ex1.png)
 
-**Implémentation :**
+Implémentation :
 
 ```bash
 # Créer les fichiers test1 et test5
@@ -26,4 +26,18 @@ Créer un dossier dans la racine qui porte de nom de `le_shell_cest_trop_cool!`
 
 ```bash
 $ mkdir le_shell_cest_trop_cool!
+```
+
+## Exercice 3
+
+Déplacer les les fichiers `test1` et `test5` dans le dossier que vous venez de créer, et copier les dossiers `test2` et `test6` dans le dossier que vous venez de créer.
+
+Implémentation :
+
+```bash
+# Déplacer test1 et test5
+$ mv test{1,5} le_shell_cest_trop_cool\!
+
+# Copier test2 et test6
+cp -r test{2,6} le_shell_cest_trop_cool\!
 ```
