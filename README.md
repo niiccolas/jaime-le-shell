@@ -41,3 +41,11 @@ $ mv test{1,5} le_shell_cest_trop_cool\!
 # Copier test2 et test6
 cp -r test{2,6} le_shell_cest_trop_cool\!
 ```
+
+## Ressources
+
+- [devhints.io](https://devhints.io/bash)
+- [cmdchallenge](https://cmdchallenge.com/)
+- [BashAcademy](https://guide.bash.academy/)
+
+![Bravo](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif)
