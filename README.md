@@ -27,7 +27,7 @@ Créer un dossier dans la racine qui porte de nom de `le_shell_cest_trop_cool!`
 Implémentation :
 
 ```bash
-# créer un dossier à la racine
+# Créer le dossier le_shell_cest_trop_cool! à la racine du projet
 $ mkdir le_shell_cest_trop_cool!
 ```
 
