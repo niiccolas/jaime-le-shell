@@ -1,6 +1,8 @@
 # J'aime le shell 🦀
 
-Projet et exercices d'introduction au Shell
+Projet et exercices d'introduction au Shell.
+
+Solution reproductibles en executant sur votre machine ce [script bash](./solveur.sh)
 
 ## Exercice 1
 
@@ -17,6 +19,8 @@ $ touch test{1,5}
 # Créer les répertoires test2 à test4 et test6
 $ mkdir test{{2..4},6}
 ```
+
+Cette implémentation utilise le processus Bash appelé [Brace Extension](https://www.linuxjournal.com/content/bash-brace-expansion). Il permet de conserver un code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) et plus facile à maintenir.
 
 ## Exercice 2
 
