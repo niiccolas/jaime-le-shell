@@ -2,7 +2,11 @@
 
 Projet et exercices d'introduction au Shell.
 
-Solution reproductibles en executant sur votre machine ce [script bash](./solveur.sh)
+Pour reproduire en local la solution au problème, un [script d'installation](https://github.com/niiccolas/jaime-le-shell/blob/master/solveur.sh) est fourni. Après en avoir inspecté le contenu, lancer l'installation depuis le terminal via la commande suivante :
+
+```bash
+curl -O https://raw.githubusercontent.com/niiccolas/jaime-le-shell/master/solveur.sh && chmod 755 solveur.sh && ./solveur.sh
+```
 
 ## Exercice 1
 
