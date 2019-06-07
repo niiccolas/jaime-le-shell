@@ -21,7 +21,7 @@ solveur_RAZ() {
   # Utilisateur OK? -> suppression des anciens fichiers de solution
   # Sinon -> sortie du script
   if [ -d solution_jls ]; then
-    printf     "${RED}> Une version précédente du projet existe déjà ici!\n"
+    printf     "${RED}==> Une version précédente du projet existe déjà ici!\n"
     read -p    "  La supprimer puis la recréer? (o/n)${NORMAL} " user_input
 
     case "$user_input" in
@@ -29,10 +29,10 @@ solveur_RAZ() {
         rm -rf solution_jls
       ;;
       "n"|"N"|"non"|"NON")
-        printf "> Réessayez plus tard 👋\n\n" && exit
+        printf "==> Réessayez plus tard 👋\n\n" && exit
       ;;
       *)
-        printf "> Réponse invalide 🤷‍♀️\n\n" && exit
+        printf "==> Réponse invalide 🤷‍♀️\n\n" && exit
       ;;
     esac
   fi
@@ -49,12 +49,12 @@ RED=$(tput setaf 1)
 
 solveur_UI_intro() {
   clear
-  printf "${BRIGHT}> \"J'aime le Shell\" - Juin 2019 🦀\n" && sleep .5s
-  printf "${NORMAL}> Initialisation du solveur\n" && sleep .5s
+  printf "${BRIGHT}==> \"J'aime le Shell\" - Juin 2019 🦀\n" && sleep .5s
+  printf "${NORMAL}==> Initialisation du solveur\n" && sleep .5s
 }
 
 solveur_UI_outro() {
-  printf "${BLUE}> Répertoire et fichiers de solution créés à l'emplacement: ./solution_jls 👌\n\n"
+  printf "${BLUE}==> Répertoire et fichiers de solution créés à l'emplacement: ./solution_jls 👌\n\n"
 }
 
 solve() {
