@@ -22,7 +22,7 @@ solveur_RAZ() {
   # Sinon -> sortie du script
   if [ -d solution_jls ]; then
     printf     "${RED}==> Une version précédente du projet existe déjà ici!\n"
-    read -p    "  La supprimer puis la recréer? (o/n)${NORMAL} " user_input
+    read -p    "    La supprimer puis la recréer? (o/n)${NORMAL} " user_input
 
     case "$user_input" in
       "o"|"O"|"oui"|"OUI")
